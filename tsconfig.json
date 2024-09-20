@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist",  // Output directory for compiled JS
+      "rootDir": "./src",  // Where your .ts files are located
+      "strict": true,      // Enable strict mode
+      "target": "ES6"     // Set target JavaScript version
+  }
+}
