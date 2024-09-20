@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-      "outDir": "./dist",  // Output directory for compiled JS
-      "rootDir": "./src",  // Where your .ts files are located
-      "strict": true,      // Enable strict mode
-      "target": "ES6"     // Set target JavaScript version
-  }
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",            // Vite will handle the output folder
+    "rootDir": "./src",            // Pointing to the src folder
+    "strict": true
+  },
+  "include": ["src/**/*.ts"]
 }
